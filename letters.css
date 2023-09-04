@@ -1,0 +1,67 @@
+/* Add your own color values or customize as needed */
+
+.colorful-phrase {
+  font-size: 56px;
+
+  text-transform: uppercase;
+}
+@media (max-width: 700px) {
+  .colorful-phrase {
+    font-size: 36px;
+  }
+}
+.letter-red {
+  color: red;
+}
+
+.letter-green {
+  color: green;
+}
+
+.letter-blue {
+  color: blue;
+}
+
+.letter-yellow {
+  color: yellow;
+}
+
+.letter-purple {
+  color: purple;
+}
+
+.letter-orange {
+  color: orange;
+}
+
+.letter-cyan {
+  color: cyan;
+}
+
+.letter-pink {
+  color: pink;
+}
+
+.letter-lime {
+  color: lime;
+}
+
+.letter-teal {
+  color: teal;
+}
+
+.letter-indigo {
+  color: indigo;
+}
+
+.letter-deep-orange {
+  color: #ff5722; /* Deep Orange */
+}
+
+.letter-blue-grey {
+  color: #607d8b; /* Blue Grey */
+}
+
+.letter-amber {
+  color: #ffc107; /* Amber */
+}

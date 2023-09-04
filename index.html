@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="letters.css" />
+    <style>
+      iframe {
+        height: 600px;
+      }
+      #hap {
+        display: none;
+      }
+      #a {
+        text-decoration: none;
+        margin: auto;
+        height: 15vh;
+        width: fit-content;
+        margin-top: 2rem;
+        margin-bottom: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: rgb(241, 253, 0) 3px solid;
+        border-radius: 1rem;
+        background: transparent;
+      }
+      body {
+        background-image: url("summer-lemons-decorative-seamless-pattern-repeating-background-tileable-wallpaper-print_153302-208.avif"); /* Replace with the path to your image */
+        background-size: cover; /* This ensures the image covers the entire background */
+        background-repeat: repeat; /* Prevents the image from repeating */
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 1rem;
+      }
+      .carousel {
+        width: 50%;
+      }
+      @media (max-width: 950px) {
+        .carousel {
+          width: 60%;
+        }
+      }
+      @media (max-width: 700px) {
+        /* Adjust the breakpoint as needed */
+        .carousel {
+          width: 90%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <button
+      style="
+        display: block;
+        margin: auto;
+        margin-top: 6rem;
+        width: 30%;
+        height: 70px;
+        border: rgb(241, 253, 0) 3px solid;
+        border-radius: 1rem;
+        background: transparent;
+      "
+      id="playButton"
+    >
+      Start !!!
+    </button>
+
+    <audio id="audioPlayer" controls style="display: none">
+      <source src="music/main.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <div id="hap">
+      <a id="a" href="game.html">
+        <div class="colorful-phrase p-2">
+          <span class="letter-red">H</span>
+          <span class="letter-green">a</span>
+          <span class="letter-blue">p</span>
+          <span class="letter-yellow">p</span>
+          <span class="letter-purple">y</span>
+          <span class="letter-orange"> </span>
+          <span class="letter-cyan">B</span>
+          <span class="letter-pink">i</span>
+          <span class="letter-lime">r</span>
+          <span class="letter-teal">t</span>
+          <span class="letter-indigo">h</span>
+          <span class="letter-deep-orange">d</span>
+          <span class="letter-orange">a</span>
+          <span class="letter-amber">y</span>
+        </div>
+      </a>
+      <p
+        style="
+          display: block;
+          width: fit-content;
+          color: rgb(15, 98, 0);
+          margin: auto;
+          margin-bottom: 4rem;
+        "
+      >
+        (Click)
+      </p>
+
+      <div
+        id="carouselExampleControls"
+        class="carousel mx-auto sm-w-90 mx-auto vh-80 d-flex align-items-center justify-content-center"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100 h-100 mx-auto"
+              src="photo_2023-09-03_15-02-24.jpg"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100 mx-auto"
+              src="photo_2023-09-03_15-02-43.jpg"
+              alt="Second slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100 mx-auto"
+              src="photo_2023-09-03_15-02-48.jpg"
+              alt="Third slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100 mx-auto"
+              src="photo_2023-09-03_15-02-52.jpg"
+              alt="Third slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100 mx-auto"
+              src="photo_2023-09-03_15-02-57.jpg"
+              alt="Third slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100 mx-auto"
+              src="photo_2023-09-03_15-03-01.jpg"
+              alt="Third slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100 mx-auto"
+              src="photo_2023-09-03_15-03-06.jpg"
+              alt="Third slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100 mx-auto"
+              src="photo_2023-09-03_15-03-16.jpg"
+              alt="Third slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <iframe
+              class="d-block w-100"
+              src="https://www.youtube.com/embed/KfC1xrhclLQ"
+              title="З Днем народження Соня"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <script>
+      const playButton = document.getElementById("playButton");
+      const hap = document.getElementById("hap");
+      const audioPlayer = document.getElementById("audioPlayer");
+
+      playButton.addEventListener("click", function () {
+        audioPlayer.play();
+        hap.style.display = "block";
+        playButton.style.display = "none";
+      });
+    </script>
+    <script type="module" src="js.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
